@@ -4,15 +4,16 @@ import { Zap } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="py-16 md:py-24">
-      <div className="container flex flex-col items-center text-center gap-6">
+    <section className="py-20 md:py-32 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-amber-500/5 via-transparent to-transparent" />
+      <div className="container relative flex flex-col items-center text-center gap-8">
         <div className="flex items-center gap-2">
-          <Zap className="h-8 w-8 text-primary" />
-          <h1 className="text-3xl md:text-5xl font-bold">
+          <Zap className="h-10 w-10 text-amber-600 dark:text-amber-400" />
+          <h1 className="text-3xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
             Elétrica Picarras
           </h1>
         </div>
-        <p className="text-muted-foreground text-lg max-w-2xl">
+        <p className="text-muted-foreground text-lg md:text-xl max-w-3xl leading-relaxed">
           Instalações, reparos e projetos elétricos com segurança, agilidade e
           preço justo. Atendemos residências e pequenos comércios.
         </p>

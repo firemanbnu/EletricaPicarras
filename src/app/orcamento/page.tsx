@@ -70,9 +70,10 @@ export default function OrcamentoPage() {
       <Header />
       <section className="py-16">
         <div className="container max-w-2xl">
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-2xl">Solicitar orçamento</CardTitle>
+          <Card className="border-border/50 shadow-lg">
+            <CardHeader className="text-center pb-4">
+              <CardTitle className="text-2xl md:text-3xl">Solicitar orçamento</CardTitle>
+              <p className="text-muted-foreground">Preencha os dados e entraremos em contato</p>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-4">
