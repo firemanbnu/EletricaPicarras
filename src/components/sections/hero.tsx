@@ -6,6 +6,9 @@ export function Hero() {
   return (
     <section className="py-20 md:py-32 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-amber-500/5 via-transparent to-transparent" />
+      <div className="absolute inset-0 opacity-10">
+        <img src="/banner.jpeg" alt="" className="w-full h-full object-cover" />
+      </div>
       <div className="container relative flex flex-col items-center text-center gap-8">
         <div className="flex items-center gap-2">
           <Zap className="h-10 w-10 text-amber-600 dark:text-amber-400" />

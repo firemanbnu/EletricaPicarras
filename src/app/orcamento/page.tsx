@@ -138,7 +138,7 @@ export default function OrcamentoPage() {
                     <SelectContent>
                       {SERVICES.map((service) => (
                         <SelectItem key={service.id} value={service.id}>
-                          {service.title} - R$ {service.price.toFixed(2)}/h
+                          {service.title}
                         </SelectItem>
                       ))}
                     </SelectContent>
