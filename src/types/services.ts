@@ -3,7 +3,7 @@ export type Service = {
   title: string;
   description: string;
   image: string;
-  icon: "zap" | "wrench" | "lightbulb" | "plug" | "shield";
+  icon: "zap" | "wrench" | "lightbulb" | "plug";
 };
 
 export const SERVICES: Service[] = [
@@ -36,14 +36,7 @@ export const SERVICES: Service[] = [
     image: "/images/tomadas.jpg",
     icon: "plug",
   },
-  {
-    id: "projeto",
-    title: "Projetos e Adequações",
-    description: "Adequação à NR10/legislação e projetos residenciais.",
-    image: "/images/projeto.jpg",
-    icon: "shield",
-  },
-];
+  ];
 
 export type OrderForm = {
   name: string;
